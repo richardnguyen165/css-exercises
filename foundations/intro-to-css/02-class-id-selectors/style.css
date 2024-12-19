@@ -1,9 +1,9 @@
-.odd, .odd-extra{
+.odd{
     background-color: #d2a5bc;
     font: "Verdana", "DejaVu Sans", sans-serif;
 }
 
-.odd-extra{
+.font-set{
     font-size: 24px;
 }
 
@@ -14,6 +14,5 @@
 
 #four{
     background-color: lightgreen;
-    font-size: 24px;
     font-weight: bold;
 }
