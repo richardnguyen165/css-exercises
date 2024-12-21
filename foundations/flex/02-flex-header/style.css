@@ -1,19 +1,29 @@
-.header  {
+.header {
+  display: flex;
   font-family: monospace;
   background: papayawhip;
 }
 
 .logo {
+  display: flex;
   font-size: 48px;
   font-weight: 900;
   color: tomato;
   background: white;
   padding: 4px 32px;
+  border: 5px, solid, papayawhip;
+  flex: 0;
+  justify-content: center;
+  text-align: center;
 }
 
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  display: flex;
+  gap: 5px;
+  padding: 0px;
+  align-items: center;
 }
 
 a {
@@ -22,4 +32,18 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
+}
+
+.left-links{
+  /* To make a item into a container, use "display: flex" */
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.right-links{
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
 }
