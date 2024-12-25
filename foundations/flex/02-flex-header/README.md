@@ -18,3 +18,7 @@ wide:
 - Your solution does not use floats, inline-block, or absolute positioning.
 
 - Note: For this exercise, it's completely acceptable to not match the font-family.
+
+### Result
+
+Aligned with answer, but I failed during my solve attempt to do the justify-content: space-between.

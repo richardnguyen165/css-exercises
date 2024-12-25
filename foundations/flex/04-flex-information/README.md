@@ -17,3 +17,7 @@ For this one you will need to edit the HTML a little bit too. We can't be making
 - The items are arranged horizontally on the page.
 - The items are only 200px wide and the text wraps.
 - The item text is centered.
+
+### Result
+
+Aside from many simplifications, I only forgot to set the max width to 200px. However, I also forgot to se the container images to be centered,which can be done by using justify-content: center to center it along the primary axis (I also used flex on the food class, which screwed me up). Overall, I sill got close to the the intended image.
